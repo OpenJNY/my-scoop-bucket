@@ -1,0 +1,26 @@
+{
+    "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/psping",
+    "description": "PsPing implements Ping functionality, TCP ping, latency and bandwidth measurement. Use the following command-line options to show the usage for each test type:",
+    "license": "Sysinternals Software License Terms",
+    "version": "2.1",
+    "url": "https://download.sysinternals.com/files/PSTools.zip",
+    "hash": "b9f404d4c7b6bf3a37746c66bcd014e75859d2fcf887b1db527ec3ed2ccdeb30",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                [
+                    "PsPing64.exe",
+                    "psping"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": [
+                [
+                    "PsPing.exe",
+                    "psping"
+                ]
+            ]
+        }
+    }
+}
