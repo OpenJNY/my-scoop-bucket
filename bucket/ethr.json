@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/microsoft/ethr",
+    "description": "Ethr is a Network Performance Measurement Tool for TCP, UDP & HTTP.",
+    "license": "MIT",
+    "version": "0.2.1",
+    "url": "https://github.com/microsoft/ethr/releases/download/v0.2.1/ethr_windows.zip",
+    "hash": "ece4b4d9153e61319c3c9487400395af9e52d32d96367b5d7dedea09270e0d2a",
+    "bin": "ethr.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/microsoft/ethr/releases/download/v$version/ethr_windows.zip"
+    }
+}
