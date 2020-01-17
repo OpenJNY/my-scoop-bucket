@@ -1,0 +1,16 @@
+{
+    "homepage": "https://github.com/microsoft/etl2pcapng",
+    "description": "Utility that converts an .etl file containing a Windows network packet capture into .pcapng format.",
+    "license": "MIT",
+    "version": "1.3.0",
+    "url": "https://github.com/microsoft/etl2pcapng/releases/download/v1.3.0/etl2pcapng.zip",
+    "extract_dir": "etl2pcapng",
+    "architecture": {
+        "64bit": {
+            "bin": "x64\\etl2pcapng.exe"
+        },
+        "32bit": {
+            "bin": "x84\\etl2pcapng.exe"
+        }
+    }
+}
