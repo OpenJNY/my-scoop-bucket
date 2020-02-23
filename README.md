@@ -14,3 +14,11 @@ scoop bucket add openjny https://github.com/OpenJNY/my-scoop-bucket.git
 ```powershell
 > CertUtil -hashfile foobar.zip SHA256
 ```
+
+### autoupdate
+
+[App Manifest Autoupdate · lukesampson/scoop Wiki](https://github.com/lukesampson/scoop/wiki/App-Manifest-Autoupdate)
+
+```powershell
+> ~\scoop\apps\scoop\current\bin\checkver.ps1 -Dir .\bucket
+```
