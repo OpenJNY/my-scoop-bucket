@@ -2,8 +2,8 @@
     "homepage": "https://github.com/cheat/cheat",
     "description": "cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.",
     "license": "MIT",
-    "version": "3.2.2",
-    "url": "https://github.com/cheat/cheat/releases/download/3.2.2/cheat-win-amd64.exe",
+    "version": "3.6.0",
+    "url": "https://github.com/cheat/cheat/releases/download/3.6.0/cheat-win-amd64.exe",
     "hash": "",
     "bin": [
         [
