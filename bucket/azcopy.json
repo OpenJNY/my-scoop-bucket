@@ -1,0 +1,25 @@
+{
+    "version": "10.10.0",
+    "description": "AzCopy v10 is a command-line utility that you can use to copy data to and from containers and file shares in Azure Storage accounts.",
+    "homepage": "https://github.com/Azure/azure-storage-azcopy",
+    "license": "MIT License",
+    "architecture": {
+        "64bit": {
+            "url": "https://aka.ms/downloadazcopy-v10-windows#1.zip",
+            "hash": "4c797ba463ebedf5acdaab4deed40b51fe719167594e2d48cc6ef6fddacaacb7",
+            "bin": [
+                "azcopy_windows_amd64_10.10.0\\azcopy.exe"
+            ]
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "bin": [
+                    "azcopy_windows_amd64_$version\\azcopy.exe"
+                ]
+            }
+        }
+    }
+}
