@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/Azure/aztfy",
+    "description": "A tool to bring your existing Azure resources under the management of Terraform.",
+    "license": "Mozilla Public License",
+    "version": "0.0.4",
+    "url": "https://github.com/Azure/aztfy/releases/download/v0.0.4/aztfy_0.0.4_Windows_x86_64.tar.gz",
+    "hash": "922a6411171a3a3b9b468e39bdabd386c93af9eebf96a982f124ec2a257e5809",
+    "bin": "aztfy.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Azure/aztfy/releases/download/v$version/aztfy_$version_Windows_x86_64.tar.gz"
+    }
+}
