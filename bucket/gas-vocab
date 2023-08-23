@@ -1,0 +1,12 @@
+{
+    "homepage": "https://github.com/OpenJNY/gas-vocab",
+    "description": "GAS vocab client",
+    "license": "GPL-3.0",
+    "version": "0.0.2",
+    "url": "https://github.com/OpenJNY/gas-vocab/releases/download/v0.0.2/vocab-v0.0.2-windows-amd64.zip",
+    "bin": "vocab.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/OpenJNY/gas-vocab/releases/download/v$version/vocab-v$version-windows-amd64.zip"
+    }
+}
